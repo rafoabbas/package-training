@@ -2,9 +2,9 @@
 
 namespace Codio\PackageTraining\Tests;
 
+use Codio\PackageTraining\PackageTrainingServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codio\PackageTraining\PackageTrainingServiceProvider;
 
 class TestCase extends Orchestra
 {

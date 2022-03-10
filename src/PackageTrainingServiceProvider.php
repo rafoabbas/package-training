@@ -2,9 +2,9 @@
 
 namespace Codio\PackageTraining;
 
+use Codio\PackageTraining\Commands\PackageTrainingCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Codio\PackageTraining\Commands\PackageTrainingCommand;
 
 class PackageTrainingServiceProvider extends PackageServiceProvider
 {
